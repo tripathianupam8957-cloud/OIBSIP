@@ -42,7 +42,9 @@ A simple, GUI-based **Weather Application** built using **Python (Tkinter)** and
 ```
 
 ## Screenshot
-*(Add a screenshot of the running app here after you test it)*
+*(<img width="1915" height="1012" alt="Screenshot 2026-07-05 223424" src="https://github.com/user-attachments/assets/2c207cd0-d241-4117-8d7c-adeab23a5274" />
+<img width="1911" height="1026" alt="Screenshot 2026-07-05 223407" src="https://github.com/user-attachments/assets/5fea19ad-d65a-4051-b689-2e09c42a9641" />
+Add a screenshot of the running app here after you test it)*
 
 ## Author
 Anupam Tripathi — OASIS INFOBYTE Python Internship
