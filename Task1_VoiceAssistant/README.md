@@ -1,89 +1,56 @@
-# 🎙️ Personal Voice Assistant
-### OASIS INFOBYTE – Python Programming Internship (OIBSIP)
+# Task 4 - Random Password Generator 🔐
 
-A simple desktop voice assistant built in Python that listens to your voice,
-understands commands, and responds with speech.
+## OASIS Infobyte Python Programming Internship
+
+### 👤 Author: Anupam Ram Tripathi
 
 ---
+
+## 📋 Description
+
+A **Random Password Generator** built with Python's Tkinter library. The app
+generates strong, random passwords based on user-defined criteria such as
+length and the type of characters to include (uppercase, lowercase, digits,
+symbols).
 
 ## ✨ Features
-- Greets you based on time of day (Good Morning / Afternoon / Evening)
-- Tells current **time** and **date**
-- Opens **Google**, **YouTube**, **Wikipedia** in your browser
-- Searches **Wikipedia** and reads a short summary aloud
-- Tells a random **joke**
-- Performs basic **calculations**
-- Exits gracefully on command ("exit" / "stop" / "bye")
 
----
+- 🎚️ Choose password length (4–64 characters)
+- 🔤 Toggle uppercase, lowercase, digits, and symbols
+- 🖱️ One-click password generation
+- 📋 Copy generated password to clipboard
+- 🟢🟡🔴 Live password strength indicator (Weak / Medium / Strong)
+- 🎨 Clean, dark-themed Tkinter GUI
 
-## 🛠️ Setup Instructions
+## 🛠️ Tech Stack
 
-### 1. Install Python
-Make sure Python 3.8+ is installed: https://www.python.org/downloads/
+- **Language:** Python 3
+- **GUI Library:** Tkinter (built-in)
+- **Modules used:** `random`, `string`, `tkinter`
 
-### 2. Install required libraries
-Open terminal/command prompt in this folder and run:
+## 🚀 How to Run
 
-```bash
-pip install -r requirements.txt
-```
+1. Make sure Python 3 is installed on your system.
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/tripathianupam8957-cloud/OIBSIP.git
+   ```
+3. Navigate to this folder:
+   ```bash
+   cd OIBSIP/Task4_PasswordGenerator
+   ```
+4. Run the script:
+   ```bash
+   python password_generator.py
+   ```
 
-> **Note (Windows users):** If `pyaudio` fails to install, run:
-> ```bash
-> pip install pipwin
-> pipwin install pyaudio
-> ```
->
-> **Note (Mac users):** Install portaudio first:
-> ```bash
-> brew install portaudio
-> pip install pyaudio
-> ```
->
-> **Note (Linux users):**
-> ```bash
-> sudo apt-get install portaudio19-dev python3-pyaudio
-> pip install pyaudio
-> ```
+## 📸 Demo
 
-### 3. Run the assistant
-```bash
-python voice_assistant.py
-```
+*(Add a screenshot or GIF of the app here once available)*
 
-Speak clearly into your microphone after you see **"Listening..."** in the terminal.
+## 📌 Internship Details
 
----
+This project is part of **Task 4** of the **OASIS Infobyte Python Programming
+Internship**.
 
-## 🗣️ Sample Commands to Try
-- "What's the time?"
-- "What's today's date?"
-- "Open Google"
-- "Open YouTube"
-- "Who is Albert Einstein?"
-- "Tell me a joke"
-- "Calculate"
-- "Exit" / "Bye"
-
----
-
-## 📹 For Video Demo (OIBSIP submission)
-1. Start the video by showing your **name** on the first frame.
-2. Run the script and demonstrate at least 4–5 commands live.
-3. Show the terminal output along with the assistant's spoken responses.
-4. Upload the video to LinkedIn with hashtags **#oasisinfobyte #internship #python**
-
----
-
-## 📂 GitHub Submission
-Push this project to a repository named **OIBSIP** (as required by Oasis Infobyte),
-inside a folder like `Python_Programming/Task_X_VoiceAssistant`.
-
----
-
-## 🚀 Possible Future Improvements
-- Wake word detection (e.g., "Hey Assistant")
-- Weather updates via API
-- Send emails / WhatsApp messages
-- GUI using Tkinter
+#oasisinfobyte #oasisinfobytefamily #internship #python
