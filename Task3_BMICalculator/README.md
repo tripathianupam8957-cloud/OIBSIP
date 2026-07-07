@@ -1,45 +1,56 @@
-# ⚖ BMI Calculator — OASIS INFOBYTE Internship (Task 3)
+# Task 4 - Random Password Generator 🔐
 
-A simple, GUI-based **BMI (Body Mass Index) Calculator** built using **Python (Tkinter)**. Enter your weight and height to instantly calculate your BMI and see your health category.
+## OASIS Infobyte Python Programming Internship
 
-## Features
-- ⚖ Calculate BMI from weight (kg) and height (cm)
-- 🎨 Color-coded result based on category (Underweight / Normal / Overweight / Obese)
-- 📊 Built-in BMI scale reference shown on screen
-- 🔄 Clear button to reset fields
-- ⚠ Input validation for invalid or empty entries
+### 👤 Author: Anupam Ram Tripathi
 
-## Tech Stack
-- Python 3
-- Tkinter (built-in GUI library, no extra installation needed)
+---
 
-## Setup Instructions
+## 📋 Description
 
-1. Clone the repo:
+A **Random Password Generator** built with Python's Tkinter library. The app
+generates strong, random passwords based on user-defined criteria such as
+length and the type of characters to include (uppercase, lowercase, digits,
+symbols).
+
+## ✨ Features
+
+- 🎚️ Choose password length (4–64 characters)
+- 🔤 Toggle uppercase, lowercase, digits, and symbols
+- 🖱️ One-click password generation
+- 📋 Copy generated password to clipboard
+- 🟢🟡🔴 Live password strength indicator (Weak / Medium / Strong)
+- 🎨 Clean, dark-themed Tkinter GUI
+
+## 🛠️ Tech Stack
+
+- **Language:** Python 3
+- **GUI Library:** Tkinter (built-in)
+- **Modules used:** `random`, `string`, `tkinter`
+
+## 🚀 How to Run
+
+1. Make sure Python 3 is installed on your system.
+2. Clone this repository:
    ```bash
    git clone https://github.com/tripathianupam8957-cloud/OIBSIP.git
-   cd OIBSIP
    ```
-
-2. Run the app (no external dependencies required):
+3. Navigate to this folder:
    ```bash
-   python bmi_calculator.py
+   cd OIBSIP/Task4_PasswordGenerator
+   ```
+4. Run the script:
+   ```bash
+   python password_generator.py
    ```
 
-## How BMI is Calculated
-```
-BMI = weight (kg) / (height (m))²
-```
+## 📸 Demo
 
-| BMI Range      | Category       |
-|----------------|----------------|
-| Below 18.5     | Underweight    |
-| 18.5 - 24.9    | Normal weight  |
-| 25.0 - 29.9    | Overweight     |
-| 30.0 and above | Obese          |
+*(Add a screenshot or GIF of the app here once available)*
 
-## Screenshot
-*(Add a screenshot of the running app here after you test it)*
+## 📌 Internship Details
 
-## Author
-Anupam Tripathi — OASIS INFOBYTE Python Internship
+This project is part of **Task 4** of the **OASIS Infobyte Python Programming
+Internship**.
+
+#oasisinfobyte #oasisinfobytefamily #internship #python
